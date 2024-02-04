@@ -1,13 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { CakeView } from './features/cake/CakeView'
 import { IceCreamView } from './features/icecream/IceCreamView'
 import { UserView } from './features/users/UserView'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
       <div>
